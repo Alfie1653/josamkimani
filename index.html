@@ -1,0 +1,255 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JOSAM KIMANI</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="IMG/favicon.png">
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<nav>
+				<img src="IMG/Slogan (2).png" class="head">
+				<ul id="sidemenu">
+					<li><a href="#header">HOME</a></li>
+					<li><a href="#About">ABOUT</a></li>
+					<li><a href="#Services">SERVICES</a></li>
+					<li><a href="#portfolio">PORTFOLIO</a></li>
+					<li><a href="#contact">CONTACT</a></li>
+					<img src="IMG/closemenu.png" class="close" onclick="closemenu()">
+				</ul>
+				<img src="IMG/menu.png" class="close" onclick="openmenu()">
+			</nav>
+			<div class="header-text">
+				<div class="left-column">
+					<div class="intro-text">
+						<h1>Hi, I am <span style="color: #009bdf;">J</span>osam<br>
+						<span style="color: #009bdf">K</span>imani <span style="color: #009bdf;">M</span>arenye</h1>
+						<p>A Web Developer</p>
+					</div>
+				</div>
+				<div class="right-column">
+					<div class="image-wrapper">
+						<img src="IMG/JOSAM.png" class="profile-pic">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-----------------------------------About Me--------------------------------->
+	<div id="About">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="IMG/marenye.jpg">
+				</div>
+				<div class="about-col-2">
+					<h1 class="subtitle">About Me</h1>
+					<p>I am a passionate and creative web developer dedicated to creating exceptional online experiences. With a background in web development and a love for all things digtal, I ring a unique blend of technical expertise and artistic vision to every project.</p>
+					
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="closetab('Skills')">Skills</p>
+						<p class="tab-links" onclick="closetab('Experience')">Experience</p>
+						<p class="tab-links" onclick="closetab('Education')">Education</p>
+					</div>
+					<div class="tab-contents active-tab" id="Skills">
+						<div class="gbox">
+							<div class="skill-box">
+								<span class="title">HTML/CSS</span>
+
+								<div class="skill-bar">
+									<span class="skill-per html">
+										<span class="tooltip">90%</span>
+									</span>
+								</div>
+							</div>
+
+							<div class="skill-box">
+								<span class="title">JAVASCRIPT</span>
+
+								<div class="skill-bar">
+									<span class="skill-per js">
+										<span class="tooltip">30%</span>
+									</span>
+								</div>
+							</div>
+
+							<div class="skill-box">
+								<span class="title">WORDPRESS</span>
+
+								<div class="skill-bar">
+									<span class="skill-per wp">
+										<span class="tooltip">95%</span>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-contents" id="Experience">
+						<table>
+							<tr>
+								<td style="text-decoration: underline; text-align: right;">2021-CURRENT</td>
+								<td style="text-align: center; color: #009bdf;">WORDPRESS WEBSITE CREATION</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>I develop and design Wordpress Websites and publish them for clients.</td>
+							</tr>
+							<tr>
+								<td style="text-decoration: underline; text-align: right;">2015-2021</td>
+								<td style="text-align: center; color: #009bdf;">WEB DEVELOPER</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>I was responsible for all the in-house and client based web development works.</td>
+							</tr>
+							<tr>
+								<td style="text-decoration: underline; text-align: right;">2010-2015</td>
+								<td style="text-align: center; color: #009bdf;">GRAPHIC DESIGNER</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>My team of desingers and I created beautiful posters and flyers for our clients.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="tab-contents" id="Education">
+						<ul>
+							<li><span>2014</span><br>KCPE Certificate from Lanet Umoja Primary School-NAKURU</li>
+							<li><span>2019</span><br>KCSE Certificate from St. Francis Secondary School-LARE</li>
+							<li><span>2021</span><br>HTML/CSS/JavaScript Training in <a href="https://www.w3schools.com" target="blank" style="color:#009bdf; font-weight: 600;">w3schools.com</a></li>
+							<li><span>2023</span><br>Wordpress Training via YouTube</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-----------------------------------Services--------------------------------->
+	<div id="Services">
+		<div class="container">
+			<h1 class="subtitle">My Services</h1>
+			<div class="services-list">
+				<div>
+					<img src="IMG/code.png" class="logo">
+					<h2>Web Development</h2>
+					<p>Crafting Digital Experiences.</p>
+					<a href="#">Learn More</a>
+				</div>
+				<div>
+					<img src="IMG/crop.png" class="logo">
+					<h2>Graphic Design</h2>
+					<p>Accessible. Affordable. Creative.</p>
+					<a href="#">Learn More</a>
+				</div>
+				<div>
+					<img src="IMG/wand.png" class="logo">
+					<h2>Logo Design</h2>
+					<p>A mint of Exceptional Design.</p>
+					<a href="#">Learn More</a>
+				</div>
+				<div>
+					<img src="IMG/PS.png" class="logo">
+					<h2>Photoshop</h2>
+					<p>Visionary Image Editing.</p>
+					<a href="#">Learn More</a>
+				</div>
+			</div>
+			<a href="#" class="btn">See More</a>
+		</div>
+	</div>
+<!-----------------------------------My Work--------------------------------->
+	<div id="portfolio">
+		<div class="container">
+			<h1 class="subtitle">My Work</h1>
+			<div class="work-list">
+				<div class="work">
+					<img src="IMG/ecomm.jpg">
+					<div class="layer">
+						<h3>E-Commerce Website</h3>
+						<p>Set up an attractive E-Commerce Website that will got you customers.</p>
+						<a href="#"><img src="IMG/Link.png" style="transform: scale(0.6);"></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="IMG/blog.jpg">
+					<div class="layer">
+						<h3>Blog Webpage</h3>
+						<p>Capture your readers' attention with captivating blog web pages.</p>
+						<a href="#"><img src="IMG/Link.png" style="transform: scale(0.6);"></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="IMG/UWA.png">
+					<div class="layer">
+						<h3>Utility Web Apps</h3>
+						<p>Browser-based tools with no server-side processing.</p>
+						<a href="https://alfie1653.github.io/genie/" target="blank"><img src="IMG/Link.png" style="transform: scale(0.6);"></a>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="btn">See More</a>
+		</div>
+	</div>
+<!-----------------------------------Contact--------------------------------->
+	<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-left">
+					<h1 class="subtitle">Contact Me</h1>
+					<p><img src="IMG/email.png" style="width: 24px; height: 24px">&nbsp&nbspjoemareye@gmail.com</p>
+					<p><img src="IMG/phone.png" style="width: 24px; height: 24px">&nbsp&nbsp+254113503145</p>
+					<div class="social-icons">
+						<a href="https://web.facebook.com/kimani.marenye" target="blank"><img src="IMG/FB.png" class="logo"></a>
+						<a href="https://www.instagram.com/scofieldjmichael10/" target="blank"><img src="IMG/IG.jpg" class="logo"></a>
+						<a href="https://api.whatsapp.com/send/?phone=%2B254113503145&text&type=phone_number&app_absent=0" target="blank"><img src="IMG/whatsapp.png" class="logo"></a>
+						<a href="https://twitter.com/marenye211" target="blank"><img src="IMG/x.png" class="logo"></a>
+					</div>
+					<a href="CV.pdf" download class="btn btn-2">Download My CV</a>
+				</div>
+				<div class="contact-right">
+					<form>
+						<input type="text" name="Name" placeholder="Your Name" required>
+						<input type="text" name="Email" placeholder="Your Email" required>
+						<textarea name="Message" rows="8" cols="16" placeholder="Your Message"></textarea>
+						<button type="submit" class="btn btn-2">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+<!------------------Copyright--------------->
+	<div class="copyright">
+		<p>Copyright @Josam_2023</p>
+	</div>
+
+<script>
+	var tablinks = document.getElementsByClassName("tab-links");
+	var tabcontents = document.getElementsByClassName("tab-contents");
+
+	function closetab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+
+</script>
+<script>
+	var sidemenu=document.getElementById("sidemenu");
+	function openmenu(){
+		sidemenu.style.right="0";
+	}
+	function closemenu(){
+		sidemenu.style.right="-200px";
+	}
+</script>
+</body>
+</html>
